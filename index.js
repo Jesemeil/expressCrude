@@ -24,3 +24,7 @@ mongoose
   });
 
 app.use("/api/user", route);
+
+app.get("/", (req, res) => {
+  res.json({ mssg: "Hello mine" });
+});
