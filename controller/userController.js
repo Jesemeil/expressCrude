@@ -40,7 +40,7 @@ export const update = async (req, res) => {
     });
     res.status(201).json(updateUser);
   } catch (error) {
-    res.status(500).json({ error: "Internal Server error" });
+    res.status(500).json({ error: "Internet Server error" });
   }
 };
 
